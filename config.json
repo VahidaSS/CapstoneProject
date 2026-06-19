@@ -1,0 +1,11 @@
+{
+  "data_path": "data/",
+  "output_path": "output/",
+  "db": {
+    "host": "localhost",
+    "port": "5432",
+    "database": "environment_db",
+    "user": "postgres",
+    "password": "postgres123"
+  }
+}

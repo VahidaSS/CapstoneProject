@@ -1,0 +1,13 @@
+# Ignore output data
+output/
+
+# Ignore logs
+pipeline.log
+
+# Ignore Python cache
+__pycache__/
+*.pyc
+
+# Ignore system files
+.DS_Store
+Thumbs.db
