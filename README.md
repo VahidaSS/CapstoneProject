@@ -1,20 +1,104 @@
-# Week 3 - Data Pipeline (PostgreSQL)
+# Environmental Data Analytics Capstone Project
 
-## Overview
-Automated pipeline for environmental datasets.
+## Week 4 – Feature Engineering Pipeline
 
-## Features
-Data ingestion and transformation
-Partitioned storage (by year)
-PostgreSQL integration
-Logging and versioning
-Modular design
+### Overview
+
+This project implements a production-inspired feature engineering
+pipeline for environmental datasets.
+
+Datasets include
+
+• NASA Global Temperature
+• India AQI
+• UN Geospatial Forest Cover
+
+The pipeline automatically
+
+✓ Reads data from PostgreSQL
+
+✓ Performs validation
+
+✓ Engineers advanced features
+
+✓ Generates metadata
+
+✓ Produces quality reports
+
+✓ Updates PostgreSQL
+
+✓ Creates execution reports
+
+---
+
+## Folder Structure
+
+Week4_FeatureEngineering/
+
+config.json
+
+feature_engineering.py
+
+feature_description.txt
+
+requirements.txt
+
+README.md
+
+output/
+
+---
+
+## Engineered Features
+
+Rolling averages
+
+Trend analysis
+
+Cumulative metrics
+
+Environmental Score
+
+Environmental Index
+
+AQI Risk Category
+
+Normalization
+
+MinMax Scaling
+
+PCA (conditional)
+
+---
+
+## Generated Outputs
+
+feature_dataset.csv
+
+feature_metadata.csv
+
+feature_summary.csv
+
+pipeline.log
+
+execution_report.txt
+
+data_quality_report.txt
+
+---
+
+## Requirements
+
+pip install -r requirements.txt
+
+---
 
 ## Run
-bash
-pip install -r requirements.txt
-python pipeline.py
 
-## Output
-CSV Files stored in output /
-Data stored in PostgreSQL tables
+python feature_engineering.py
+
+---
+
+## Result
+
+Production Feature Engineering Pipeline Completed Successfully

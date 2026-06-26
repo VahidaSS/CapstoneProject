@@ -1,0 +1,7 @@
+Temp_5yr_avg → 5-year rolling average of temperature
+AQI_3yr_avg → 3-year rolling AQI average
+Temp_Trend → yearly temperature change
+AQI_Trend → yearly AQI change
+Cumulative_PM25 → total PM2.5 over time
+Env_Score → combined environmental impact
+PC1, PC2 → PCA reduced dimensions
