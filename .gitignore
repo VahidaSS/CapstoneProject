@@ -1,8 +1,4 @@
-# Ignore output data
-output/
 
-# Ignore logs
-pipeline.log
 
 # Ignore Python cache
 __pycache__/

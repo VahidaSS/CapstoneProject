@@ -1,0 +1,333 @@
+======================================================================
+ENVIRONMENTAL DATA QUALITY REPORT
+======================================================================
+Generated : 2026-06-25 16:34:03.115225
+
+DATASET SUMMARY
+----------------------------------------
+Rows                : 1
+Columns             : 38
+
+MISSING VALUES
+----------------------------------------
+year                                0
+temperature_anomaly                 0
+temp_ma                             0
+pm2.5                               0
+aqi                                 0
+forest_cover                        0
+forest_ma                           0
+temp_5yr_avg                        0
+aqi_3yr_avg                         0
+forest_3yr_avg                      0
+temp_trend                          0
+aqi_trend                           0
+forest_trend                        0
+temp_growth_pct                     0
+aqi_growth_pct                      0
+temp_previous_year                  0
+aqi_previous_year                   0
+cumulative_temperature              0
+cumulative_pm25                     0
+cumulative_aqi                      0
+cumulative_forest                   0
+max_temperature                     0
+max_aqi                             0
+min_temperature                     0
+min_aqi                             0
+aqi_to_temp_ratio                   0
+pm25_to_aqi_ratio                   0
+env_score                           0
+environmental_index                 0
+risk_category                       0
+temperature_anomaly_zscore          0
+aqi_zscore                          0
+pm2.5_zscore                        0
+forest_cover_zscore                 0
+temperature_anomaly_minmax          0
+aqi_minmax                          0
+pm2.5_minmax                        0
+forest_cover_minmax                 0
+
+DUPLICATE RECORDS
+----------------------------------------
+Duplicate Rows      : 0
+
+COLUMN DATA TYPES
+----------------------------------------
+year                                int64
+temperature_anomaly                 float64
+temp_ma                             float64
+pm2.5                               float64
+aqi                                 float64
+forest_cover                        float64
+forest_ma                           float64
+temp_5yr_avg                        float64
+aqi_3yr_avg                         float64
+forest_3yr_avg                      float64
+temp_trend                          float64
+aqi_trend                           float64
+forest_trend                        float64
+temp_growth_pct                     float64
+aqi_growth_pct                      float64
+temp_previous_year                  float64
+aqi_previous_year                   float64
+cumulative_temperature              float64
+cumulative_pm25                     float64
+cumulative_aqi                      float64
+cumulative_forest                   float64
+max_temperature                     float64
+max_aqi                             float64
+min_temperature                     float64
+min_aqi                             float64
+aqi_to_temp_ratio                   float64
+pm25_to_aqi_ratio                   float64
+env_score                           float64
+environmental_index                 float64
+risk_category                       category
+temperature_anomaly_zscore          float64
+aqi_zscore                          float64
+pm2.5_zscore                        float64
+forest_cover_zscore                 float64
+temperature_anomaly_minmax          float64
+aqi_minmax                          float64
+pm2.5_minmax                        float64
+forest_cover_minmax                 float64
+
+MEMORY USAGE
+----------------------------------------
+0.86 KB
+
+NUMERIC SUMMARY
+----------------------------------------
+
+year
+   Min  : 2017.00
+   Max  : 2017.00
+   Mean : 2017.00
+   Std  : nan
+
+temperature_anomaly
+   Min  : 0.92
+   Max  : 0.92
+   Mean : 0.92
+   Std  : nan
+
+temp_ma
+   Min  : 0.94
+   Max  : 0.94
+   Mean : 0.94
+   Std  : nan
+
+pm2.5
+   Min  : 82.79
+   Max  : 82.79
+   Mean : 82.79
+   Std  : nan
+
+aqi
+   Min  : 178.88
+   Max  : 178.88
+   Mean : 178.88
+   Std  : nan
+
+forest_cover
+   Min  : 34115.72
+   Max  : 34115.72
+   Mean : 34115.72
+   Std  : nan
+
+forest_ma
+   Min  : 34196.75
+   Max  : 34196.75
+   Mean : 34196.75
+   Std  : nan
+
+temp_5yr_avg
+   Min  : 0.92
+   Max  : 0.92
+   Mean : 0.92
+   Std  : nan
+
+aqi_3yr_avg
+   Min  : 178.88
+   Max  : 178.88
+   Mean : 178.88
+   Std  : nan
+
+forest_3yr_avg
+   Min  : 34115.72
+   Max  : 34115.72
+   Mean : 34115.72
+   Std  : nan
+
+temp_trend
+   Min  : 0.00
+   Max  : 0.00
+   Mean : 0.00
+   Std  : nan
+
+aqi_trend
+   Min  : 0.00
+   Max  : 0.00
+   Mean : 0.00
+   Std  : nan
+
+forest_trend
+   Min  : 0.00
+   Max  : 0.00
+   Mean : 0.00
+   Std  : nan
+
+temp_growth_pct
+   Min  : 0.00
+   Max  : 0.00
+   Mean : 0.00
+   Std  : nan
+
+aqi_growth_pct
+   Min  : 0.00
+   Max  : 0.00
+   Mean : 0.00
+   Std  : nan
+
+temp_previous_year
+   Min  : 0.92
+   Max  : 0.92
+   Mean : 0.92
+   Std  : nan
+
+aqi_previous_year
+   Min  : 178.88
+   Max  : 178.88
+   Mean : 178.88
+   Std  : nan
+
+cumulative_temperature
+   Min  : 0.92
+   Max  : 0.92
+   Mean : 0.92
+   Std  : nan
+
+cumulative_pm25
+   Min  : 82.79
+   Max  : 82.79
+   Mean : 82.79
+   Std  : nan
+
+cumulative_aqi
+   Min  : 178.88
+   Max  : 178.88
+   Mean : 178.88
+   Std  : nan
+
+cumulative_forest
+   Min  : 34115.72
+   Max  : 34115.72
+   Mean : 34115.72
+   Std  : nan
+
+max_temperature
+   Min  : 0.92
+   Max  : 0.92
+   Mean : 0.92
+   Std  : nan
+
+max_aqi
+   Min  : 178.88
+   Max  : 178.88
+   Mean : 178.88
+   Std  : nan
+
+min_temperature
+   Min  : 0.92
+   Max  : 0.92
+   Mean : 0.92
+   Std  : nan
+
+min_aqi
+   Min  : 178.88
+   Max  : 178.88
+   Mean : 178.88
+   Std  : nan
+
+aqi_to_temp_ratio
+   Min  : 93.17
+   Max  : 93.17
+   Mean : 93.17
+   Std  : nan
+
+pm25_to_aqi_ratio
+   Min  : 0.46
+   Max  : 0.46
+   Mean : 0.46
+   Std  : nan
+
+env_score
+   Min  : 247.36
+   Max  : 247.36
+   Mean : 247.36
+   Std  : nan
+
+environmental_index
+   Min  : 87.53
+   Max  : 87.53
+   Mean : 87.53
+   Std  : nan
+
+temperature_anomaly_zscore
+   Min  : 0.00
+   Max  : 0.00
+   Mean : 0.00
+   Std  : nan
+
+aqi_zscore
+   Min  : 0.00
+   Max  : 0.00
+   Mean : 0.00
+   Std  : nan
+
+pm2.5_zscore
+   Min  : 0.00
+   Max  : 0.00
+   Mean : 0.00
+   Std  : nan
+
+forest_cover_zscore
+   Min  : 0.00
+   Max  : 0.00
+   Mean : 0.00
+   Std  : nan
+
+temperature_anomaly_minmax
+   Min  : 0.00
+   Max  : 0.00
+   Mean : 0.00
+   Std  : nan
+
+aqi_minmax
+   Min  : 0.00
+   Max  : 0.00
+   Mean : 0.00
+   Std  : nan
+
+pm2.5_minmax
+   Min  : 0.00
+   Max  : 0.00
+   Mean : 0.00
+   Std  : nan
+
+forest_cover_minmax
+   Min  : 0.00
+   Max  : 0.00
+   Mean : 0.00
+   Std  : nan
+
+VALIDATION STATUS
+----------------------------------------
+✓ No Duplicate Records
+✓ No Missing Values
+
+======================================================================
+REPORT COMPLETED
+======================================================================
