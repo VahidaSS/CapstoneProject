@@ -1,0 +1,9 @@
+{
+    "temperature_rows": 148,
+    "aqi_rows": 29531,
+    "forest_rows_original": 3,
+    "forest_rows_interpolated": 13,
+    "environmental_risk_score": 50.0,
+    "sustainability_score": 75.0,
+    "risk_category": "Moderate"
+}

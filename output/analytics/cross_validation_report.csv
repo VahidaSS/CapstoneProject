@@ -1,0 +1,3 @@
+model,mean_cv_score,std_cv_score
+Linear Regression,-3.9940124323917763,4.301812260898592
+Random Forest,-1.4886562605807874,1.162712789610945

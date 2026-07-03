@@ -1,0 +1,28 @@
+
+=====================================================
+ENVIRONMENTAL INTELLIGENCE REPORT
+=====================================================
+
+Environmental Health Index : 60.18
+
+Environmental Risk Score   : 39.82
+
+Risk Category              : Moderate
+
+Sustainability Score       : 60.18
+
+Sustainability Category    : Good
+
+Best Model                 : Random Forest
+
+Forecast Trend             : Decreasing
+
+Primary Risk Driver        : Pollution
+
+Average AQI               : 173.97
+
+Average PM2.5             : 72.28
+
+Forecast Horizon          : 5 Years
+
+=====================================================

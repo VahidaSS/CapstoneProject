@@ -1,0 +1,2 @@
+generated_date,environmental_health_index,environmental_risk_score,sustainability_score,risk_category,risk_driver,forest_score,climate_score,pollution_score,best_model
+2026-07-03,60.176756124515194,39.823243875484806,60.176756124515194,Moderate,Pollution,99.54820861204219,67.85824226566108,0,Random Forest

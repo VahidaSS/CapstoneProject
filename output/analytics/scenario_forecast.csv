@@ -1,0 +1,5 @@
+scenario,adjustment_factor,projected_temperature
+Baseline,1.0,0.7083759652183985
+Green Policy,0.98,0.6942084459140305
+Aggressive Green,0.95,0.6729571669574785
+Pollution Growth,1.03,0.7296272441749505
