@@ -1,0 +1,94 @@
+2026-07-12 21:58:29,537 | INFO | ======================================================================
+2026-07-12 21:58:29,538 | INFO | ENVIRONMENTAL FEATURE ENGINEERING PIPELINE STARTED
+2026-07-12 21:58:29,539 | INFO | ======================================================================
+2026-07-12 21:58:29,539 | INFO | Configuration loaded successfully
+2026-07-12 21:58:29,767 | INFO | PostgreSQL connection established
+2026-07-12 21:58:29,768 | INFO | Pipeline Started
+2026-07-12 21:58:29,769 | INFO | Loading merged dataset...
+2026-07-12 21:58:29,791 | INFO | Dataset Loaded Successfully
+2026-07-12 21:58:29,792 | INFO | Rows    : 1
+2026-07-12 21:58:29,793 | INFO | Columns : 7
+2026-07-12 21:58:29,794 | INFO | Column names standardized
+2026-07-12 21:58:29,794 | INFO | Running data validation
+2026-07-12 21:58:29,795 | INFO | Dataset is not empty
+2026-07-12 21:58:29,796 | INFO | Required columns present
+2026-07-12 21:58:29,803 | INFO | Duplicate Rows : 0
+2026-07-12 21:58:29,803 | INFO | Missing Values
+2026-07-12 21:58:29,804 | INFO | year                   0
+temperature_anomaly    0
+temp_ma                0
+pm2.5                  0
+aqi                    0
+forest_cover           0
+forest_ma              0
+dtype: int64
+2026-07-12 21:58:29,810 | INFO | Memory Usage : 0.18 KB
+2026-07-12 21:58:29,810 | INFO | Data Types
+2026-07-12 21:58:29,811 | INFO | year                     int64
+temperature_anomaly    float64
+temp_ma                float64
+pm2.5                  float64
+aqi                    float64
+forest_cover           float64
+forest_ma              float64
+dtype: object
+2026-07-12 21:58:29,814 | INFO | Validation Completed
+2026-07-12 21:58:29,820 | INFO | ============================================================
+2026-07-12 21:58:29,821 | INFO | FEATURE ENGINEERING STARTED
+2026-07-12 21:58:29,821 | INFO | ============================================================
+2026-07-12 21:58:29,823 | INFO | Dataset sorted by year
+2026-07-12 21:58:29,824 | INFO | Generating rolling average features
+2026-07-12 21:58:29,827 | INFO | Generating trend features
+2026-07-12 21:58:29,836 | INFO | Generating growth features
+2026-07-12 21:58:29,841 | INFO | Generating lag features
+2026-07-12 21:58:29,844 | INFO | Generating cumulative metrics
+2026-07-12 21:58:29,848 | INFO | Generating environmental ratios
+2026-07-12 21:58:29,851 | INFO | Generating environmental score
+2026-07-12 21:58:29,852 | INFO | Generating environmental index
+2026-07-12 21:58:29,855 | INFO | Assigning AQI risk category
+2026-07-12 21:58:29,859 | INFO | Missing values handled
+2026-07-12 21:58:29,859 | INFO | Total Features Created : 30
+2026-07-12 21:58:29,859 | INFO | Feature Engineering Completed Successfully
+2026-07-12 21:58:29,860 | INFO | ============================================================
+2026-07-12 21:58:29,860 | INFO | NORMALIZATION STARTED
+2026-07-12 21:58:29,860 | INFO | ============================================================
+2026-07-12 21:58:29,861 | INFO | Applying StandardScaler
+2026-07-12 21:58:29,868 | INFO | Applying MinMaxScaler
+2026-07-12 21:58:29,875 | INFO | Normalization completed successfully
+2026-07-12 21:58:29,876 | INFO | ============================================================
+2026-07-12 21:58:29,876 | INFO | FEATURE METADATA GENERATION
+2026-07-12 21:58:29,876 | INFO | ============================================================
+2026-07-12 21:58:29,885 | INFO | Feature metadata generated successfully
+2026-07-12 21:58:29,886 | INFO | Metadata saved at output//metadata/feature_metadata_20260712_215829.csv
+2026-07-12 21:58:29,886 | INFO | ============================================================
+2026-07-12 21:58:29,887 | INFO | DATA QUALITY REPORT
+2026-07-12 21:58:29,887 | INFO | ============================================================
+2026-07-12 21:58:29,911 | INFO | Data Quality Report Generated
+2026-07-12 21:58:29,911 | INFO | output//reports/data_quality_report_20260712_215829.txt
+2026-07-12 21:58:29,912 | INFO | ============================================================
+2026-07-12 21:58:29,912 | INFO | ADVANCED ANALYSIS
+2026-07-12 21:58:29,913 | INFO | ============================================================
+2026-07-12 21:58:29,914 | WARNING | Correlation skipped - insufficient records
+2026-07-12 21:58:29,914 | WARNING | PCA skipped - insufficient observations
+2026-07-12 21:58:29,915 | INFO | ============================================================
+2026-07-12 21:58:29,916 | INFO | SAVING OUTPUTS
+2026-07-12 21:58:29,916 | INFO | ============================================================
+2026-07-12 21:58:29,921 | INFO | Feature dataset saved
+2026-07-12 21:58:29,924 | INFO | Metadata saved
+2026-07-12 21:58:30,019 | INFO | Feature summary saved
+2026-07-12 21:58:30,020 | INFO | ============================================================
+2026-07-12 21:58:30,021 | INFO | DATABASE UPDATE
+2026-07-12 21:58:30,021 | INFO | ============================================================
+2026-07-12 21:58:30,176 | INFO | Table feature_engineered updated
+2026-07-12 21:58:30,177 | INFO | ============================================================
+2026-07-12 21:58:30,177 | INFO | DATABASE VALIDATION
+2026-07-12 21:58:30,177 | INFO | ============================================================
+2026-07-12 21:58:30,182 | INFO | CSV Rows      : 1
+2026-07-12 21:58:30,183 | INFO | Database Rows : 1
+2026-07-12 21:58:30,183 | INFO | DATABASE VALIDATION PASSED
+2026-07-12 21:58:30,184 | INFO | ============================================================
+2026-07-12 21:58:30,184 | INFO | GENERATING EXECUTION REPORT
+2026-07-12 21:58:30,184 | INFO | ============================================================
+2026-07-12 21:58:30,190 | INFO | Execution report created
+2026-07-12 21:58:30,195 | INFO | Pipeline Completed Successfully
+2026-07-12 21:58:30,196 | INFO | Pipeline Finished Successfully

@@ -6,7 +6,7 @@
 
 # 📌 Project Overview
 
-The **Environmental Intelligence & Sustainability Analytics Platform** is an end-to-end Environmental Data Engineering, Machine Learning, Forecasting, and Business Intelligence solution developed as part of the IIT Jodhpur Capstone Project.
+The **Environmental Intelligence & Sustainability Analytics Platform** is an end-to-end Environmental Data Engineering, Machine Learning, Forecasting, and Business Intelligence solution developed as part of the Capstone Project.
 
 The platform integrates climate, air quality, and forest sustainability datasets to generate environmental intelligence, assess sustainability performance, forecast future environmental conditions, and support executive decision-making through interactive Power BI dashboards.
 

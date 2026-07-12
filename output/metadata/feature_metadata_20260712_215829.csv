@@ -1,0 +1,39 @@
+Feature,Data_Type,Description
+year,int64,Original Dataset Feature
+temperature_anomaly,float64,Original Dataset Feature
+temp_ma,float64,Original Dataset Feature
+pm2.5,float64,Original Dataset Feature
+aqi,float64,Original Dataset Feature
+forest_cover,float64,Original Dataset Feature
+forest_ma,float64,Original Dataset Feature
+temp_5yr_avg,float64,5-Year Rolling Average of Temperature
+aqi_3yr_avg,float64,3-Year Rolling Average of AQI
+forest_3yr_avg,float64,3-Year Rolling Average of Forest Cover
+temp_trend,float64,Year-to-Year Temperature Change
+aqi_trend,float64,Year-to-Year AQI Change
+forest_trend,float64,Year-to-Year Forest Cover Change
+temp_growth_pct,float64,Temperature Growth Percentage
+aqi_growth_pct,float64,AQI Growth Percentage
+temp_previous_year,float64,Previous Year Temperature
+aqi_previous_year,float64,Previous Year AQI
+cumulative_temperature,float64,Running Total Temperature
+cumulative_pm25,float64,Running Total PM2.5
+cumulative_aqi,float64,Running Total AQI
+cumulative_forest,float64,Running Total Forest Cover
+max_temperature,float64,Original Dataset Feature
+max_aqi,float64,Original Dataset Feature
+min_temperature,float64,Original Dataset Feature
+min_aqi,float64,Original Dataset Feature
+aqi_to_temp_ratio,float64,AQI divided by Temperature
+pm25_to_aqi_ratio,float64,PM2.5 divided by AQI
+env_score,float64,Composite Environmental Score
+environmental_index,float64,Average Environmental Indicator
+risk_category,category,AQI Risk Classification
+temperature_anomaly_zscore,float64,Original Dataset Feature
+aqi_zscore,float64,Original Dataset Feature
+pm2.5_zscore,float64,Original Dataset Feature
+forest_cover_zscore,float64,Original Dataset Feature
+temperature_anomaly_minmax,float64,Original Dataset Feature
+aqi_minmax,float64,Original Dataset Feature
+pm2.5_minmax,float64,Original Dataset Feature
+forest_cover_minmax,float64,Original Dataset Feature

@@ -14,3 +14,51 @@
 2026-06-18 18:06:25,548 - INFO - Merged rows: 1
 2026-06-18 18:06:25,681 - INFO -  Data stored in PostgreSQL | Rows: 1
 2026-06-18 18:06:25,681 - INFO - Pipeline completed in 0:00:00.248858
+2026-07-12 21:57:31,388 - INFO -  Output folders ready
+2026-07-12 21:57:31,516 - INFO -  Data loaded successfully
+2026-07-12 21:57:31,569 - INFO -  Temperature processed | Rows: 26
+2026-07-12 21:57:31,689 - INFO -  AQI processed | Years: 6
+2026-07-12 21:57:31,720 - INFO -  Geospatial processed | Rows: 3
+2026-07-12 21:57:31,722 - INFO -  Temperature validation completed
+2026-07-12 21:57:31,723 - INFO -  AQI validation completed
+2026-07-12 21:57:31,724 - WARNING -  Geospatial contains missing values
+2026-07-12 21:57:31,724 - INFO -  Geospatial validation completed
+2026-07-12 21:57:31,739 - INFO -  Data merged | Rows: 1
+2026-07-12 21:57:31,739 - INFO - Temp rows: 26
+2026-07-12 21:57:31,739 - INFO - AQI rows: 6
+2026-07-12 21:57:31,739 - INFO - Geo rows: 3
+2026-07-12 21:57:31,739 - INFO - Merged rows: 1
+2026-07-12 21:57:32,584 - INFO -  Data stored in PostgreSQL | Rows: 1
+2026-07-12 21:57:32,585 - INFO - Pipeline completed in 0:00:01.198896
+2026-07-12 21:57:56,376 - INFO -  Output folders ready
+2026-07-12 21:57:56,477 - INFO -  Data loaded successfully
+2026-07-12 21:57:56,504 - INFO -  Temperature processed | Rows: 26
+2026-07-12 21:57:56,590 - INFO -  AQI processed | Years: 6
+2026-07-12 21:57:56,611 - INFO -  Geospatial processed | Rows: 3
+2026-07-12 21:57:56,612 - INFO -  Temperature validation completed
+2026-07-12 21:57:56,613 - INFO -  AQI validation completed
+2026-07-12 21:57:56,614 - WARNING -  Geospatial contains missing values
+2026-07-12 21:57:56,614 - INFO -  Geospatial validation completed
+2026-07-12 21:57:56,625 - INFO -  Data merged | Rows: 1
+2026-07-12 21:57:56,625 - INFO - Temp rows: 26
+2026-07-12 21:57:56,625 - INFO - AQI rows: 6
+2026-07-12 21:57:56,625 - INFO - Geo rows: 3
+2026-07-12 21:57:56,625 - INFO - Merged rows: 1
+2026-07-12 21:57:57,289 - INFO -  Data stored in PostgreSQL | Rows: 1
+2026-07-12 21:57:57,289 - INFO - Pipeline completed in 0:00:00.914001
+2026-07-12 22:43:56,320 - INFO -  Output folders ready
+2026-07-12 22:43:56,456 - INFO -  Data loaded successfully
+2026-07-12 22:43:56,485 - INFO -  Temperature processed | Rows: 26
+2026-07-12 22:43:56,612 - INFO -  AQI processed | Years: 6
+2026-07-12 22:43:56,642 - INFO -  Geospatial processed | Rows: 3
+2026-07-12 22:43:56,644 - INFO -  Temperature validation completed
+2026-07-12 22:43:56,645 - INFO -  AQI validation completed
+2026-07-12 22:43:56,646 - WARNING -  Geospatial contains missing values
+2026-07-12 22:43:56,647 - INFO -  Geospatial validation completed
+2026-07-12 22:43:56,661 - INFO -  Data merged | Rows: 1
+2026-07-12 22:43:56,661 - INFO - Temp rows: 26
+2026-07-12 22:43:56,661 - INFO - AQI rows: 6
+2026-07-12 22:43:56,661 - INFO - Geo rows: 3
+2026-07-12 22:43:56,661 - INFO - Merged rows: 1
+2026-07-12 22:43:57,356 - INFO -  Data stored in PostgreSQL | Rows: 1
+2026-07-12 22:43:57,356 - INFO - Pipeline completed in 0:00:01.037569
